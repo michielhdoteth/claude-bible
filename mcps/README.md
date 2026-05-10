@@ -73,6 +73,15 @@ These MCPs focus on enabling AI models to effectively select, utilize, and orche
         *   **Structured Tool Output:** Ensures that results from external tools are returned to the AI in a consistent and parsable format.
     *   **Official GitHub:** (No direct GitHub link found in search, but related to mcp.so, which is a hub for MCP-related projects and discussions. This suggests it might be a foundational component or a reference implementation within the broader MCP ecosystem.)
 
+
+*   **NotFair:**
+    *   **Description:** A hosted Google Ads MCP server that connects Claude and other AI agents to a Google Ads account. NotFair lets the AI orchestrate Google Ads diagnostics and changes through a standard MCP interface — diagnosing campaign performance, recommending optimizations, and executing approved changes via the official Google Ads API.
+    *   **Key Features:**
+        *   **Diagnose:** Surfaces campaign performance issues — CPA, ROAS, search-term waste, quality scores, learning-phase status.
+        *   **Recommend:** Suggests bid moves, budget reallocations, negative keywords, ad-copy changes, and audience refinements.
+        *   **Execute with Approval Gate:** Applies approved changes via the official Google Ads API, with a built-in human-approval step before any write.
+        *   **MCP-Compatible:** Works with Claude, Cursor, and any MCP client.
+    *   **Official Link:** [notfair.co](https://notfair.co/)
 ### 📊 Data Integration MCPs (Conceptual)
 
 These MCPs would focus on providing AI models with structured access to various data sources, enabling data-driven decision-making and analysis.
