@@ -82,6 +82,19 @@ These MCPs focus on enabling AI models to effectively select, utilize, and orche
         *   **Execute with Approval Gate:** Applies approved changes via the official Google Ads API, with a built-in human-approval step before any write.
         *   **MCP-Compatible:** Works with Claude, Cursor, and any MCP client.
     *   **Official Link:** [notfair.co](https://notfair.co/)
+
+*   **Squish Memory (4M Labs):**
+    *   **Description:** A persistent memory runtime for AI agents that provides long-term recall, graph-based association, and tiered memory lifecycle (hot/warm/cold). Squish acts as an MCP-accessible memory layer, allowing AI agents to store, retrieve, and reason over past interactions, user preferences, and project context across sessions. Built with TypeScript, supports both SQLite and Supabase (PostgreSQL + pgvector) backends.
+    *   **Key Features:**
+        *   **Cross-Session Memory:** Agents remember context, decisions, and user preferences across conversations, not just within a single context window.
+        *   **Graph Associations:** Memories link to each other through typed associations (relates_to, supports, contradicts, supersedes, duplicate) enabling multi-hop reasoning and context-aware retrieval.
+        *   **Tiered Lifecycle:** Automatic decay scheduler promotes/demotes memories between hot (fast QMD file store), warm, and cold tiers based on recency and importance.
+        *   **Hybrid Search:** Combines BM25 keyword search, vector similarity (pgvector), recency scoring, and graph boost for relevance-ranked results.
+        *   **MCP Server:** Ships with a built-in MCP server (`npx squish-memory`) for easy integration with any MCP-compatible client.
+    *   **Installation:** `npx -y squish-memory`
+    *   **Official GitHub:** [github.com/michielhdoteth/squish-memory](https://github.com/michielhdoteth/squish-memory)
+    *   **Landing Page:** [squishplugin.dev](https://squishplugin.dev)
+
 ### 📊 Data Integration MCPs (Conceptual)
 
 These MCPs would focus on providing AI models with structured access to various data sources, enabling data-driven decision-making and analysis.

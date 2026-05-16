@@ -60,6 +60,7 @@ Claude Code is built upon core principles that define its unique approach to sof
 | **Workflows** | Advanced workflows | [workflows/](workflows/) |
 | **Prompting** | Engineering techniques | [prompting/](prompting/) |
 | **Rules** | Best practices | [rules/](rules/) |
+| **Skills** | Reusable skill files for AI workflows | [skills/](skills/) |
 
 ## Table of Contents: Navigating the Claude Code Bible
 
