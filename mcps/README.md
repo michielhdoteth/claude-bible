@@ -51,6 +51,52 @@ These MCPs provide broad contextual capabilities, often focusing on code, docume
         *   **Centralized AI Knowledge Base:** The `.ai/` directory acts as a single source of truth for AI-relevant project information.
     *   **Official GitHub:** [github.com/WrinklAI/wrinkl](https://github.com/WrinklAI/wrinkl)
 
+### 🔧 Official Reference MCPs (Anthropic / Steering Group)
+
+These are maintained by the MCP steering group as reference implementations. They serve as canonical examples for building MCP servers.
+
+*   **Filesystem:**
+    *   **Description:** Secure file operations with configurable access controls. Enables AI to read, write, and search files within allowed directories.
+    *   **Key Features:** Configurable allowed dirs whitelist, read/write/search operations, file metadata retrieval.
+    *   **Install:** `npx -y @modelcontextprotocol/server-filesystem`
+    *   **Official GitHub:** [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)
+
+*   **Fetch:**
+    *   **Description:** Web content fetching and conversion optimized for LLM consumption. Fetches URLs and converts HTML to markdown.
+    *   **Key Features:** HTML-to-markdown conversion, configurable max length limits, efficient content extraction.
+    *   **Install:** `uvx mcp-server-fetch`
+    *   **Official GitHub:** [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)
+
+*   **Memory (Knowledge Graph):**
+    *   **Description:** Persistent memory system using a knowledge graph. Stores entities, their relationships, and supports semantic recall across sessions.
+    *   **Key Features:** Entity extraction and storage, relationship management, semantic memory queries.
+    *   **Install:** `npx -y @modelcontextprotocol/server-memory`
+    *   **Official GitHub:** [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)
+
+*   **Sequential Thinking:**
+    *   **Description:** Dynamic and reflective problem-solving through structured thought sequences. Allows AI to maintain a chain of reasoning with revision and branching.
+    *   **Key Features:** Thought chain management, revision and branching support, structured reasoning output.
+    *   **Install:** `npx -y @modelcontextprotocol/server-sequential-thinking`
+    *   **Official GitHub:** [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)
+
+*   **Git:**
+    *   **Description:** Tools to read, search, and manipulate Git repositories programmatically.
+    *   **Key Features:** Diff viewing, log queries, blame analysis, branch management.
+    *   **Install:** `uvx mcp-server-git`
+    *   **Official GitHub:** [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)
+
+*   **Brave Search:**
+    *   **Description:** Official Brave Search API server for web and local search results.
+    *   **Key Features:** Web search with Brave index, local search results, news integration.
+    *   **Install:** `npx -y @anthropic-ai/brave-search-mcp-server`
+    *   **Official GitHub:** [brave/brave-search-mcp-server](https://github.com/brave/brave-search-mcp-server)
+
+*   **Cloudflare:**
+    *   **Description:** Official Cloudflare MCP server providing 14 domain-specific server configurations for Cloudflare services (Workers, KV, R2, D1, AI, Durable Objects, etc.).
+    *   **Key Features:** Access to Cloudflare API, Workers deployment, KV/R2 storage operations, AI model inference, DNS management.
+    *   **Install:** `npx @cloudflare/mcp-server`
+    *   **Official GitHub:** [cloudflare/mcp-server](https://github.com/cloudflare/mcp-server-cloudflare)
+
 ### 🛠️ AI Tool Orchestration MCPs
 
 These MCPs focus on enabling AI models to effectively select, utilize, and orchestrate various external tools to achieve complex objectives.

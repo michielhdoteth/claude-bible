@@ -1,14 +1,28 @@
-# Claude Code Bible - Complete Guide to AI-Assisted Development
+# Claude Code Bible - Complete Guide to AI-Assisted Development, Prompt Engineering, MCP Servers, and Workflows
 
-[![Claude Code](https://img.shields.io/badge/Claude-Code-blue)](https://claude.com/code)
-[![AI Coding](https://img.shields.io/badge/AI-Assisted-Development-green)](https://github.com/topics/ai-coding)
-[![LLM](https://img.shields.io/badge/LLM-Prompt--Engineering-purple)](https://github.com/topics/prompt-engineering)
-[![MCP](https://img.shields.io/badge/Model-Context-Protocol-orange)](https://github.com/topics/mcp)
-[![Public Repo](https://img.shields.io/badge/Public-Repository-yellow)](https://github.com/anthropics/claude-code)
+<p align="center">
+  <a href="https://claude.ai/code"><img src="https://img.shields.io/badge/Claude-Code-8A2BE2?style=flat-square" alt="Claude Code"></a>
+  <a href="https://github.com/topics/ai-coding"><img src="https://img.shields.io/badge/AI-Assisted_Development-22c55e?style=flat-square" alt="AI Assisted Development"></a>
+  <a href="https://github.com/topics/prompt-engineering"><img src="https://img.shields.io/badge/Prompt_Engineering-a855f7?style=flat-square" alt="Prompt Engineering"></a>
+  <a href="https://github.com/topics/mcp"><img src="https://img.shields.io/badge/Model_Context_Protocol_(MCP)-f97316?style=flat-square" alt="MCP"></a>
+  <a href="https://github.com/topics/claude-code"><img src="https://img.shields.io/badge/Claude_Code_Resources-3b82f6?style=flat-square" alt="Claude Code Resources"></a>
+  <br>
+  <a href="https://github.com/michielhdoteth/claude-bible/stargazers"><img src="https://img.shields.io/github/stars/michielhdoteth/claude-bible?style=flat-square" alt="GitHub Stars"></a>
+  <a href="https://github.com/michielhdoteth/claude-bible/forks"><img src="https://img.shields.io/github/forks/michielhdoteth/claude-bible?style=flat-square" alt="GitHub Forks"></a>
+  <a href="https://github.com/michielhdoteth/claude-bible"><img src="https://img.shields.io/github/last-commit/michielhdoteth/claude-bible?style=flat-square" alt="Last Commit"></a>
+</p>
 
-> The ultimate resource for mastering Claude Code, AI-assisted software development, prompt engineering, and LLM-powered coding workflows.
+> The ultimate resource for mastering Claude Code, AI-assisted software development, prompt engineering, LLM-powered coding workflows, MCP servers, and subagent orchestration. 7+ reusable skill files included.
 
-Welcome to the **Claude Code Bible** - the most comprehensive collection of resources, tools, methodologies, and best practices for developers using AI-assisted software development with Claude Code, LLMs, and AI coding assistants. This repository empowers developers to harness the full potential of Large Language Models (LLMs) like Claude Sonnet, Claude Opus, and other AI coding tools to create, innovate, and maintain software with unprecedented efficiency and creativity.
+## About
+
+Welcome to the **Claude Code Bible** -- the most comprehensive open-source collection of resources, tools, methodologies, and best practices for developers using AI-assisted software development with Claude Code, LLMs, and AI coding assistants. This repository covers Claude Code CLI, MCP (Model Context Protocol) servers, prompt engineering techniques, subagent orchestration, workflow automation, hooks, plugins, and reusable skill files.
+
+Whether you are building with Claude Sonnet, Claude Opus, GPT-4, Gemini, or open-source LLMs, this Bible provides everything you need to accelerate your AI-assisted development workflows.
+
+**What makes this different:** Rather than just linking to tools, this repository includes **7 production-ready skill files** you can use immediately, detailed MCP server configurations, and battle-tested workflow patterns from the AI-assisted development community (32,000+ MCP repos and 27,000+ claude-code repos as of May 2026).
+
+**Keywords:** Claude Code, AI-assisted development, prompt engineering, MCP servers, Model Context Protocol, AI coding, LLM workflows, subagents, hooks, plugins, autonomous coding, Claude CLI, Anthropic, AI development tools, developer automation, vibe coding.
 
 ## What is Claude Code?
 
